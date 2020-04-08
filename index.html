@@ -1,17 +1,54 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>hi</title>
-		<meta charset="utf-8">
-		<link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <h1>
-		<center>
-			breakcore or die
-			<p> die die die
-			<p> die die die
-		</center>
-		</h1>
-    </body>
+<html lang="ru">
+<head>
+    <!-- Кодировка веб-страницы -->
+    <meta charset="utf-8">
+    <!-- Настройка viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Подключаем Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<div id="header" class="container-fluid test-container">
+			<h1>шапка</h1>
+		</div>
+	</header>
+	
+	<main>
+		<div class="container-fluid test-container">
+			<h1>навыки</h1>
+			<div class="container skills">
+				<div class="row align-items-center">
+					<div class="col-sm skill-box">1</div>
+					<div class="col-sm skill-box">2</div>
+					<div class="col-sm skill-box">3</div>
+					<div class="col-sm skill-box">4</div>
+				</div>
+				<div class="row">
+					<div class="col-sm skill-box">5</div>
+					<div class="col-sm skill-box">6</div>
+					<div class="col-sm skill-box">7</div>
+					<div class="col-sm skill-box">8</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid test-container">
+			<h1>примеры</h1>
+		</div>
+	</main>
+	<footer id="footer">
+      <div class="container">
+        <p class="text-muted"><h1>контакты</h1></p>
+      </div>
+    </footer>
+
+    <!-- Подключаем jQuery -->
+    <script src="js/jquery.js"></script>
+	<!-- Подключаем плагин Popper (необходим для работы компонента Dropdown и др.) -->
+    <script src="js/popper.min.js"></script>
+    <!-- Подключаем Bootstrap JS -->    
+    <script src="js/bootstrap.min.js"></script>
+</body>
 </html>
