@@ -1,0 +1,52 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 100px; /* Margin bottom by footer height */
+}
+
+#header{
+	background-color: #00BFFF;
+	//min-height:100vh;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+	height: 100px; /* Set the fixed height of the footer here */
+	line-height: 100px; /* Vertically center the text there */
+    background-color: #00BFFF;
+	border: 2px solid black;
+}
+
+h1{
+	font-size: 40pt;
+	font-family: Georgia, Times, serif;
+	font-weight: normal;
+	
+	text-align: center;
+}
+
+.test-container{
+	border: 2px solid black;
+	background-color: pink;
+	//height: 200px;	// высота
+}
+
+.skills{
+	border: 2px solid black;
+	background-color: green;
+	min-height: 200px;
+	margin-bottom: 10px;
+}
+
+.skill-box{
+	border: 1px solid blue;
+	background-color: white;
+	text-align: center;
+	//height: 98px;
+}
+
