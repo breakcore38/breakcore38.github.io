@@ -1,61 +1,57 @@
 html {
-  position: relative;
-  min-height: 100%;
+	position: relative;
+	min-height: 100%;
 }
 
 body {
-  margin-bottom: 100px; /* Margin bottom by footer height */
+	margin-bottom: 160px; /* Margin bottom by footer height */
+	font-family: Georgia, Times, serif;
+	font-weight: normal;
+	text-align: center;
 }
 
 #header{
 	background-color: #00BFFF;
 	min-height:100vh;
+	padding-top: 30vh;
+	font-family: 'Bangers', cursive;
+	font-size: 120px;
 }
 
 #footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-	height: 100px; /* Set the fixed height of the footer here */
-	line-height: 100px; /* Vertically center the text there */
+	height: 150px; /* Set the fixed height of the footer here */
     background-color: #00BFFF;
-	border: 2px solid black;
 }
 
 h1{
 	font-size: 40pt;
-	font-family: Georgia, Times, serif;
-	font-weight: normal;
-	
-	text-align: center;
 }
 
-.test-container{
-	border: 2px solid black;
-	background-color: pink;
+ul{
+	padding: 0;
 }
 
-.skills{
-	margin-bottom: 10px;
-	max-width: 850px;
-	
+li{
+	text-align: justify;
+}
+
+.sect{
+	background-color: PINK;
+	font-size: 20pt;
 }
 
 .skill-box{
-	border: 1px solid black;
-	background-color: white;
-	text-align: center;
 	min-width: 200px;
 	max-width:300px;
-	height: 250px;
-	
+	margin: 3px;
 	
 }
 
-.skill-box h3{
+.skill-box h2{
 	font-size: 10pt;
-	font-family: Georgia, Times, serif;
-	font-weight: normal;	
 	
 }
 
@@ -63,3 +59,9 @@ h1{
 	width: 80px;'
 }
 	
+.my-carousel{
+	max-width:600px;
+	margin-left: auto;
+	margin-right: auto;	
+	margin-bottom: 10px;
+}
