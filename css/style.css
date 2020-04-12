@@ -10,12 +10,23 @@ body {
 	text-align: center;
 }
 
-#header{
+header{
+	display: flex;
 	background-color: #00BFFF;
-	min-height:100vh;
-	padding-top: 30vh;
-	font-family: 'Bangers', cursive;
-	font-size: 120px;
+	min-height:100vh;	
+	
+}
+
+.jane{
+	margin: auto;
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 80px;
+	line-height: 60%;
+}
+
+h1{
+	font-size: 30pt;		
+	line-height: 90%;
 }
 
 #footer {
@@ -26,16 +37,13 @@ body {
     background-color: #00BFFF;
 }
 
-h1{
-	font-size: 40pt;
-}
-
 ul{
-	padding: 0;
+	padding-left: 10px;
 }
 
 li{
-	text-align: justify;
+	text-align: center;
+	line-height: 1.2;
 }
 
 .sect{
@@ -51,12 +59,13 @@ li{
 }
 
 .skill-box h2{
-	font-size: 10pt;
-	
+	min-height: 50px;
+	font-size: 10pt;	
 }
 
 .skill-logo{
-	width: 80px;'
+	width: 80px;
+	margin-bottom: 10px;
 }
 	
 .my-carousel{
