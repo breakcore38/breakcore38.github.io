@@ -21,7 +21,7 @@ header{
 	margin-left: auto;
 	margin-right: auto;
 	font-family: 'Fredericka the Great', cursive;
-	font-size: 80px;
+	font-size: 60pt;
 	line-height: 60%;
 }
 
@@ -78,4 +78,9 @@ li{
 	margin-right: auto;	
 	margin-bottom: 10px;
 	padding: 0px 5px;
+}
+
+@media (max-width: 576px){
+	.jane{font-size: 40pt;}
+	h1{font-size:20pt;}
 }
