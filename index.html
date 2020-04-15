@@ -6,19 +6,36 @@
     <!-- Настройка viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Подключаем Bootstrap и CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" >
+	<link rel="stylesheet" href="css/bootstrap.min.css" >
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap" rel="stylesheet">
 	<title>Jane Grishel Visual Assistant Instagram Manager</title>
 </head>
-<body>
-	<header>
+<body>	
+	<!-- navbar -->  
+	<nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+		<a class="navbar-brand" href="#">Jane Grishel</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">  
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarContent">     
+			<ul class="navbar-nav mr-auto ml-auto">
+				<li class="nav-item active">
+					 <a class="nav-link" data-value="header" href="#header">Обо мне</a></li>  
+				<li class="nav-item">
+					<a class="nav-link" data-value="portfolio" href="#portfolio">Портфолио</a></li>
+				<li class="nav-item"> 
+					<a class="nav-link" data-value="footer" href="#footer">Контакты</a></li> 
+			</ul> 
+		</div>
+	</nav>	
+	<header id="header">
 		<div class = "jane">
 			<p>JANE GRISHEL</p>
 			<h1>Visual Assistant
 			<br>Instagram Manager</h1>
-		</div>
+		</div>	
 	</header>	
 	<main>
 	<!-- КЛЮЧЕВЫЕ НАВЫКИ -->
@@ -28,23 +45,29 @@
 				<div class="col-6 col-md-5 col-lg-2 skill-box">
 					<img class="skill-logo" src = "media/present.svg" alt="РАЗРАБОТКА УНИКАЛЬНОЙ УПАКОВКИ БРЕНДА">
 					<h2>РАЗРАБОТКА УНИКАЛЬНОЙ УПАКОВКИ БРЕНДА</h2>
-					<ul>
-						<li>Проработка личного бренда, образа, продуктовой линейки, которые выделят среди конкурентов</li>
+					<ul>						
+						<li>Проработка образа</li>
+						<li>Развитие личного бренда</li>
+						<li>Оформление продуктовой линейки</li>
+						<li>Выделение среди конкурентов</li>
 					</ul>
 				</div>
 				<div class="col-6 col-md-5 col-lg-2 skill-box">
 					<img class="skill-logo" src = "media/list.svg" alt="СОЗДАНИЕ ИНФОРМАТИВНОГО КОНТЕНТ ПЛАНА">
 					<h2>СОЗДАНИЕ ИНФОРМАТИВНОГО КОНТЕНТ ПЛАНА</h2>
 					<ul>
-						<li>Разработка контент-стратегии(типы, форматы, каналы распространения контента)</li>
+						<li>Разработка контент-стратегии</li>
+						<li>Подбор каналов распространения</li>
+						<li>Любые типы и форматы контента</li>
 					</ul>
 				</div>
 				<div class="col-6 col-md-5 col-lg-2 skill-box">
 					<img class="skill-logo" class="skill-logo" src = "media/eye.svg" alt="ГАРМОНИЧНОЕ ВИЗУАЛЬНОЕ ОФОРМЛЕНИЕ">
 					<h2>ГАРМОНИЧНОЕ ВИЗУАЛЬНОЕ ОФОРМЛЕНИЕ</h2>
 					<ul>
-						<li>Единый стиль ленты, в соответствии с последними трендами</li>
-						<li>Выбор единой цветовой палитры</li>
+						<li>Единый стиль ленты</li>
+						<li>Соответствие последним трендам</li>
+						<li>Выбор общей цветовой палитры</li>
 						<li>Бесконечная лента</li>
 					</ul>
 				</div>
@@ -52,7 +75,10 @@
 					<img class="skill-logo" src = "media/webinar_hat.svg" alt="ОФОРМЛЕНИЕ КРЕАТИВНОЙ ШАПКИ ПРОФИЛЯ">
 					<h2>ОФОРМЛЕНИЕ КРЕАТИВНОЙ ШАПКИ ПРОФИЛЯ</h2>
 					<ul>
-						<li>Создание цепляющей шапки, увеличивающей объём подписок, обращений и продаж, донося позиционирование и преимущества блога</li>
+						<li>Создание цепляющей шапки</li>
+						<li>Позиционирование и выявление преимуществ блога</li>
+						<li>Увеличение количества подписок</li>
+						<li>Конверсия обращений и продаж</li>
 					</ul>
 				</div>
 			</div>
@@ -61,7 +87,8 @@
 					<img class="skill-logo" src = "media/video.svg" alt="ПРОДАЮЩИЕ РЕКЛАМНЫЕ МАКЕТЫ">
 					<h2>ПРОДАЮЩИЕ РЕКЛАМНЫЕ МАКЕТЫ</h2>
 					<ul>
-						<li>Сочетание хайповых тезисов и качественной обработки</li>
+						<li>Использование хайповых тезисов</li>
+						<li>Качествнная обработка видео</li>
 						<li>Монтаж в Sony Vegas Pro</li>
 					</ul>
 				</div>
@@ -75,7 +102,6 @@
 						<li>Lightroom</li>
 						<li>Snapseed</li>
 						<li>PicsArt</li>
-						<li>Focos</li>
 						<li>Afterlight</li>
 					</ul>
 				</div>
@@ -84,25 +110,26 @@
 					<h2>АКТУАЛЬНОЕ В ИНСТАГРАМ</h2>
 					<ul>
 						<li>Создание сюжетов и тематических альбомов</li>
-						<li>Оформление привлекательных обложек в одном стиле и идеально гармонирующих с аватаром</li>
+						<li>Привлекательные обложки в едином стиле</li>
+						<li>Хайлайты гармонирующие с аватаром</li>
 					</ul>
 				</div>
 				<div class="col-6 col-md-5 col-lg-2 skill-box">
 					<img class="skill-logo" src = "media/certificate.svg" alt="ПОЛИГРАФИЯ">
 					<h2><br>ПОЛИГРАФИЯ</h2>
 					<ul>
+						<li>Презентации</li>
 						<li>Чек-листы</li>
 						<li>Баннеры</li>
 						<li>Визитки</li>
 						<li>Логотипы</li>
 						<li>Этикетки</li>
-						<li>Презентации</li>
-						<li>Открытки</li>
 						<li>Календари</li>
 					</ul>
 				</div>
 			</div>
 		</div>
+		<div id="portfolio"></div>
 		<!-- ЛЕНТА ИНСТАГРАМ В ЕДИНОМ СТИЛЕ -->
 		<h3 class="sect">ЛЕНТА ИНСТАГРАМ В ЕДИНОМ СТИЛЕ</h3>
 		<div id="carousel1" class="my-carousel carousel slide carousel-fade" data-ride="carousel">
@@ -326,12 +353,12 @@
 		</p>
       </div>
     </footer>
-
     <!-- Подключаем jQuery -->
     <script src="js/jquery.js"></script>
 	<!-- Подключаем плагин Popper (необходим для работы компонента Dropdown и др.) -->
     <script src="js/popper.min.js"></script>
     <!-- Подключаем Bootstrap JS -->    
     <script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>
